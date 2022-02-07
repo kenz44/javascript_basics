@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <title>Button Vanisher</title>
+    <title>Task Tracker</title>
+    <link rel = "stylesheet" href = "style.css" type = "text/css" media = "screen" charset = "utf-8">
 </head>
 
 <body>
-    <a onclick="toggle('plain')">
-        <div id="plain">
-        How many times were you frustrated while looking out for a
-        good collection of programming/algorithm/interview questions?
-        What did you expect and what did you get? This portal has
-        been created to provide well written, well thought and
-        well-explained solutions for selected questions.
-        Geeksforgeeks is the one stop solution to all
-        your coding problems! Join us so that we can shape
-        your future.
-        </div>
-    </a>
+    <div class = "container">
+    <p>
+        <label for = "new-task" class = "middle">Add Task</label>
+        <input id = "new-task" type = "text"><button>Add Task</button>
+    </p>
+    
+    <h3 class = "middle">To Do</h3>
+    <ul id = "incomplete-tasks"></ul>
+    
+    <h3 class = "middle">Completed Tasks</h3>
+    <ul id = "incomplete-tasks"></ul>
+    </div>
+    
+    <script type = "text/javascript" src = "script.js"></script>
+    
 </body>
-
 </html>
+

@@ -10,12 +10,14 @@
 		1697248627B0D255001AF25C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		1697248727B0D273001AF25C /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		1697248827B0D2B5001AF25C /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		1697248927B0D574001AF25C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		1697247F27B0D135001AF25C = {
 			isa = PBXGroup;
 			children = (
+				1697248927B0D574001AF25C /* .gitignore */,
 				1697248827B0D2B5001AF25C /* script.js */,
 				1697248727B0D273001AF25C /* style.css */,
 				1697248627B0D255001AF25C /* index.html */,
