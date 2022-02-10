@@ -1,6 +1,7 @@
 # javascript_basics
 
 <h1>Task Tracker</h1>
+<h1 align="center">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
